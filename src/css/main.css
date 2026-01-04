@@ -12,3 +12,59 @@ img,
 video {
   display: block;
 }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+}
+
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background: white;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #6c5ce7;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.item:hover {
+  background: #f0f0ff;
+}
+
+.active {
+  background: #e6e4ff;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.logout {
+  color: #d63031;
+}
